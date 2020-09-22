@@ -2,6 +2,12 @@ h1 {
     text-align: center;
 
 }
-.container {
+
+body {
     padding-bottom: 100px;
+    background-color: lightgray;
+}
+
+section {
+    background-color: white;
 }
