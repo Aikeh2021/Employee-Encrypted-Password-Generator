@@ -1,13 +1,17 @@
 h1 { 
     text-align: center;
+    padding-bottom: 30px;
 
 }
 
 body {
-    padding-bottom: 100px;
     background-color: lightgray;
 }
 
 section {
     background-color: white;
+}
+
+h2 {
+    padding-top: 40px;
 }
