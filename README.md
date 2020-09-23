@@ -25,6 +25,7 @@ Let us create your password, so you can just worry about getting through the onb
 I kept the website design simple to provide a smooth experience for the user. All you have to do is press the red button and give the website the parameters you want your password to follow. Once you have finished, you’ll be presented with your new password. If only taxes were this easy!
 
 
+
 ## Installation
 
 [Click here](https://aikeh2021.github.io/Employee-Encrypted-Password-Generator/) to have the link open in your webpage. Be sure to click the red “Generate Password” button when you’re ready to get started. Don’t forget to bring a pen and paper to write the password down for use later (assuming you’re not using a personal device).
@@ -33,6 +34,27 @@ I kept the website design simple to provide a smooth experience for the user. Al
 
 If you would like to view the specific code used to create this website, please [click here](https://github.com/Aikeh2021/Employee-Encrypted-Password-Generator) to access the repository on Github. 
 
+
+
+## Style
+
+The design of this website is very simple! The red button was a fantastic choice to draw the user’s eye directly to where they should be interacting with the page. Being that there are no instructions included on the initial website, it’s important the user can easily see where to get started.
+
+
+
+## Old Acquaintances
+
+I really enjoyed styling this website because it gave me the opportunity to work with the bootsrap grid system again. I liked this experience because there were so few elements on the page to style. It allowed me to apply the knowledge I have on a much easier to follow website. Because of the simplicity of the design, I could make a change and see exactly what it impacted. I also was still able to use the dev tools so designing the website only took me a few hours. My sense of confidence feels like it’s improving in terms of styling a website. 
+
+
+
+## New Methods
+
+I can definitely say my new study methods are greatly helping with my understanding of the material. Now that I am reviewing lectures the day after they occur, I have time to begin my homework and ask questions on things I don’t understand. I hope I am able to keep applying these methods on future units. It also helps me feel less overwhelmed. Rather than having to review all of the lectures before starting my homework, I just look over my notes from the lectures. If anything is unclear, I ask a TA for help and record what I learned in my notes in case the issue comes up again. 
+
+
+
+## Credits
 
 
 
