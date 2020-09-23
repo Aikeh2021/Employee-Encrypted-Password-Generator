@@ -1,1 +1,2 @@
-# Employee-Encrypted-Password-Generator
+# Employee Encrypted Password Generator
+
