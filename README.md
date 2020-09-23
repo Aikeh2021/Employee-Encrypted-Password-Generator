@@ -55,13 +55,17 @@ I can definitely say my new study methods are greatly helping with my understand
 
 
 ## Credits
-[Password Special Characters](https://owasp.org/www-community/password-special-characters)
-[Get Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-[How To Center A Button](https://www.youtube.com/watch?v=uICsP_UInps)
-[How To Create A Round Button](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
-[Border-Radius For Round Corners](https://www.w3schools.com/css/css3_borders.asp)
-[Horizontal Line Tag](https://www.w3schools.com/tags/tag_hr.asp)
 
+
+* [Password Special Characters](https://owasp.org/www-community/password-special-characters)
+* [Get Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* [How To Center A Button](https://www.youtube.com/watch?v=uICsP_UInps)
+* [How To Create A Round Button](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
+* [Border-Radius For Round Corners](https://www.w3schools.com/css/css3_borders.asp)
+* [Horizontal Line Tag](https://www.w3schools.com/tags/tag_hr.asp)
+
+
+## License
 
 
 
