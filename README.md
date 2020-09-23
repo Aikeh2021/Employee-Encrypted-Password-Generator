@@ -25,3 +25,14 @@ Let us create your password, so you can just worry about getting through the onb
 I kept the website design simple to provide a smooth experience for the user. All you have to do is press the red button and give the website the parameters you want your password to follow. Once you have finished, you’ll be presented with your new password. If only taxes were this easy!
 
 
+## Installation
+
+[Click here](https://aikeh2021.github.io/Employee-Encrypted-Password-Generator/) to have the link open in your webpage. Be sure to click the red “Generate Password” button when you’re ready to get started. Don’t forget to bring a pen and paper to write the password down for use later (assuming you’re not using a personal device).
+
+![image](Deployedsite.png)
+
+If you would like to view the specific code used to create this website, please [click here](https://github.com/Aikeh2021/Employee-Encrypted-Password-Generator) to access the repository on Github. 
+
+
+
+
