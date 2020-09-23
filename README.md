@@ -6,8 +6,8 @@
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Style](#style)
-* [Old Acquiantances](#Oldacquaintances)
-* [New Methods](#newmethods)
+* [Old Acquiantances](#old-acquaintances)
+* [New Methods and Roadblocks](#new-methods-and-roadblocks)
 * [Credits](#Credits)
 * [License](#License)
 
@@ -48,9 +48,13 @@ I really enjoyed styling this website because it gave me the opportunity to work
 
 
 
-## New Methods
+## New Methods and Roadblocks
 
-I can definitely say my new study methods are greatly helping with my understanding of the material. Now that I am reviewing lectures the day after they occur, I have time to begin my homework and ask questions on things I don’t understand. I hope I am able to keep applying these methods on future units. It also helps me feel less overwhelmed. Rather than having to review all of the lectures before starting my homework, I just look over my notes from the lectures. If anything is unclear, I ask a TA for help and record what I learned in my notes in case the issue comes up again. 
+I can definitely say my new study methods are greatly helping with my understanding of the past material. 
+Unfortunately, I have hit another roadblock. My new method, though effective, is quite time consuming. In addition, I find it has not been so helpful with the current unit. I don't understand what I am doing and I am stumped on how to move forward. 
+I think I don't understand a lot of the terms being used in class and it's hindering my understanding because I have a hard time implementing ideas and terms I have never seen before. Not to mention, the volume of new concepts is large and one day of review on my own between classes is not enough for me to understand. I need to find a new way to understand the material so I don't fall further behind. 
+I think I am going to revisit this homework and keep working on it on my personal device's visual studio code. I sometimes find that time and repetition are what I need to make the material click. I find that sometimes walking away from an assignment and looking at it after some time off, helps me see an issue with new eyes. And during my break, I review and Google things I didn't understand so that I'm still improving my knowledge while I'm away. In this instance, I wasn't even able to begin the javascript because I keep getting caught up in the names of the terms and what each thing does. After a few days of trying, I didn't know what to do anymore. 
+I hope that eventually I will be able to get my code to work especially since I know I will have to use it again in the future.  
 
 
 
@@ -67,7 +71,27 @@ I can definitely say my new study methods are greatly helping with my understand
 
 ## License
 
+MIT License
 
+Copyright © 2020 Ashley Ikeh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 
