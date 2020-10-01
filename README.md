@@ -67,6 +67,7 @@ I hope that eventually I will be able to get my code to work especially since I 
 * [How To Create A Round Button](https://www.w3schools.com/howto/howto_css_round_buttons.asp)
 * [Border-Radius For Round Corners](https://www.w3schools.com/css/css3_borders.asp)
 * [Horizontal Line Tag](https://www.w3schools.com/tags/tag_hr.asp)
+* [How To Add Arrays Together](https://www.w3schools.com/jsref/jsref_concat_array.asp)
 
 
 ## License

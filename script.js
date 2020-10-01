@@ -17,10 +17,13 @@ var specialCharacterOptions = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+",
 if(includeLowercase === true && includeUppercase === true && includeNumbers === true && includeSpecialCharacters === true){
 
   var allCriteria = lowercaseLetters.concat(uppercaseLetters, numberOptions, specialCharacterOptions)
-  allCriteriaGenerate = allCriteria[Math.floor(Math.random(allCriteria.indexof)*parseInt(passwordLength))]
+  allCriteriaGenerate = for (var i=0; i<(parseInt(passwordLength)+1); i++){
+    allCriteria[Math.floor(Math.random(allCriteria.indexof[i])*allCriteria.length)]
+  }
+  // allCriteriaGenerate = allCriteria[Math.floor(Math.random(allCriteria.indexof)*parseInt(passwordLength))]
   console.log(allCriteriaGenerate);
 }else{
-    console.log("You messed up");
+    console.log("Refresh the page and pick new criteria");
   }
 
 
