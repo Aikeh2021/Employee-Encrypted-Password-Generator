@@ -3,6 +3,17 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
+var passwordLength = prompt("Choose a password length no less than 8 characters, but not exceeding 128 characters.");
+var includeLowercase = confirm("Would you like your password to include lowercase letters?");
+var includeUppercase = confirm("Would you like your password to include uppercase letters?");
+var includeNumbers = confirm("Would you like your password to include numbers?");
+var includeSpecialCharacters = confirm("Would you like your password to include special characters?");
+//Then take all of the responses and use them to generate a password
+//if(includeLowercase === true &&, includeUppercase === true && includeNumbers === true && includeSpecialCharacters === true){execute the function allCriteria}
+
+
+
+
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -16,20 +27,22 @@ function generatePassword(){
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-var passwordLength = prompt("Choose a password length no less than 8 characters, but not exceeding 128 characters.");
+// var passwordLength = prompt("Choose a password length no less than 8 characters, but not exceeding 128 characters.");
 //the prompt response should be store in the variable password length to be used later.
 
-var includeLowercase = confirm("Would you like your password to include lowercase letters?");
-var includeUppercase = confirm("Would you like your password to include uppercase letters?");
-var includeNumbers = confirm("Would you like your password to include numbers?");
-var includeSpecialCharacters = confirm("Would you like your password to include special characters?");
+// var includeLowercase = confirm("Would you like your password to include lowercase letters?");
+// var includeUppercase = confirm("Would you like your password to include uppercase letters?");
+// var includeNumbers = confirm("Would you like your password to include numbers?");
+// var includeSpecialCharacters = confirm("Would you like your password to include special characters?");
 //use if/else statements to give the computer options for the other criteria to make the code easier to write (make sure if true is the response, it includes at least 1 character from the category the person said yes to).
 
-var lowercaseLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-var uppercaseLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-var numberOptions = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-var specialCharacterOptions = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "{", "|", "}", "~", "`"]; 
-//Should probably make some arrays to store the different options that can be used to create a password
+// var lowercaseLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+// var uppercaseLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+// var numberOptions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// var specialCharacterOptions = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "{", "|", "}", "~", "`"]; 
+// //Should probably make some arrays to store the different options that can be used to create a password
+
+// var allCriteria = 
 // ## Your Task
 
 // This week’s homework requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
