@@ -8,8 +8,21 @@ var includeLowercase = confirm("Would you like your password to include lowercas
 var includeUppercase = confirm("Would you like your password to include uppercase letters?");
 var includeNumbers = confirm("Would you like your password to include numbers?");
 var includeSpecialCharacters = confirm("Would you like your password to include special characters?");
-//Then take all of the responses and use them to generate a password
-//if(includeLowercase === true &&, includeUppercase === true && includeNumbers === true && includeSpecialCharacters === true){execute the function allCriteria}
+
+var lowercaseLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var uppercaseLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var numberOptions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var specialCharacterOptions = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "{", "|", "}", "~", "`"]; 
+//Then take all of the responses and use them to generate a password. 
+if(includeLowercase === true && includeUppercase === true && includeNumbers === true && includeSpecialCharacters === true){
+
+  var allCriteria = lowercaseLetters.concat(uppercaseLetters, numberOptions, specialCharacterOptions)
+  allCriteriaGenerate = allCriteria[Math.floor(Math.random(allCriteria.indexof)*parseInt(passwordLength))]
+  console.log(allCriteriaGenerate);
+}else{
+    console.log("You messed up");
+  }
+
 
 
 
