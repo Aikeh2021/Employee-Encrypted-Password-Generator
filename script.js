@@ -16,7 +16,11 @@ function generatePassword(){
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+var passwordLength = prompt("Choose a password length no less than 8 characters, but not exceeding 128 characters.");
+//the prompt response should be store in the variable password length to be used later.
 
+var includeLowerCase = confirm("Would you like to include lowercase letters?");
+//use if/else statements to give the computer options for the other criteria to make the code easier to write.
 // ## Your Task
 
 // This week’s homework requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
@@ -51,12 +55,6 @@ generateBtn.addEventListener("click", writePassword);
 // THEN the password is either displayed in an alert or written to the page
 // ```
 
-// ## Mock-Up
-
-// The following image shows the web application's appearance and functionality:
-
-// ![password generator demo](./Assets/03-javascript-homework-demo.png)
-
 // ## Grading Requirements
 
 // This homework is graded based on the following criteria: 
@@ -77,21 +75,12 @@ generateBtn.addEventListener("click", writePassword);
 
 // * GitHub repository that contains application code.
 
-// ### Application Quality: 15%
-
-// * Application user experience is intuitive and easy to navigate.
-
-// * Application user interface style is clean and polished.
-
-// * Application resembles the mock-up functionality provided in the homework instructions.
 
 // ### Repository Quality: 13%
 
-// * Repository has a unique name.
-
 // * Repository follows best practices for file structure and naming conventions.
 
-// * Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+// * Repository follows best practices for quality comments, etc.
 
 // * Repository contains multiple descriptive commit messages.
 
